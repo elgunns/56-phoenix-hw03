@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website Project</title>
+   
+    <link rel="stylesheet" href="web-project.css">
+    <script type="text/javascript" src="java2.js"></script>  
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/team-members.html">Our Team</a></li>
+            <li><a href="/web-project.html">Web Project</a></li>
+            <li><a href="/hour-of-code.html">Hour of Code</a></li>
+            <li><a href="/code-artist.html">Code Art</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content Section -->
+    <main>
+        <div class="title-section">
+            <h1>OUR WEBSITE PROJECT</h1>
+        </div>
+
+        <!-- First Section -->
+        <div class="content-section">
+            <div class="image-container">
+                <img src="./imgs/sections.png" class="code-image">
+            </div>
+            <div class="text-container">
+                <h2>Plan Overview</h2>
+                <p>Our team started working on building this website as soon as the assignment was published by the instructor. We created a public repository in github and all of us joined it. We divided the website into 4 sections: Main page and Team Members, Hour of Code, Code Art, Web Project. In order to help each other and ensure that everything is on track, we met 3 times a week. Rest of the days we constantly kept each other updated on the steps we took. Our team designed this website using HTML for structure, CSS for styling, and JavaScript for dynamism. For each HTML file, we added seperate CSS files and used different extensions in VS Code to make the process easier for us. The images on the left are screenshots of the code we created and the texts next to them are explanations for how it works. </p>
+            </div>
+        </div>
+
+        <!-- Second Section -->
+        <div class="content-section">
+            <div class="image-container">
+                <img src="./imgs/homepage copy.jpg" class="code-image">
+            </div>
+            <div class="text-container">
+                <h2>Homepage</h2>
+                <p>
+                    The code for this section represents a structured home page for our website titled "Phoenix Team”. The head tag includes the webpage's title, "Homework 3: How websites work?", and links to an external CSS file (index.css) for styling and a JavaScript file for interactivity.
+                    In the body section, a navigation bar provides links to different pages, such as "Home," "Our Team," and "Web Project," using an unordered list. Each list item contains an anchor tag for navigation, directing users to specific HTML or CSS files.
+                    The main content displays a logo image, the site name inside an h2 tag, and a description within a paragraph tag. This description uses bold text (strong).
+                    Lastly, the footer section credits Ada University. 
+                </p>
+            </div>
+        </div>
+
+        <!-- Third Section -->
+        <div class="content-section">
+            <div class="image-container">
+                <img src="./imgs/our team.png" class="code-image">
+            </div>
+            <div class="text-container">
+                <h2>Our Team</h2>
+                <p>In this HTML code, each team member is presented within a division tag using the class team-member, containing our photos, name, description, and contact links represented by icons. These icons use anchor tags for clickable links, and the href attribute specifies their destination, such as email, phone, or LinkedIn profiles.
+                    Additionally, a button element with the ID scrollToTopBtn provides a "Scroll to Top" functionality, controlled via JavaScript. External styles (team-members.css) and JavaScript are linked through link and script tags, enabling the integration of custom styles and interactivity. 
+                </p>
+            </div>
+        </div>
+        
+        <!-- Fourth Section -->
+        <div class="content-section">
+            <div class="image-container">
+                <img src="./imgs/hour of code.png" class="code-image">
+            </div>
+            <div class="text-container">
+                <h2>Hour of Code</h2>
+                <p>
+                    This HTML code explains our past Hour of Code event. It includes sections for a carousel, event details, and a summary of the event. The body contains a primary section with id="hour-of-code" for the main content.The carousel is implemented using radio buttons (input type="radio") for navigation between six slides, each containing an image tag to display event photos. Corresponding label tags create navigation dots. A container organizes paragraphs detailing the event. The details section uses an unordered list for quick facts like location, date, and participants. Additional sections (h3 and p) provide a narrative on the event's introduction, progress, and conclusion.   
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Fifth Section -->
+        <div class="profile">
+            <h2>Check Out Our Codecademy Profiles!</h2>
+            <div class="profile">
+            <img src="./imgs/Ayan.jpg">
+            <h3>Ayan Karimli</h3>
+            <a href="https://www.codecademy.com/profiles/akarimli17131" target="_blank">
+                https://www.codecademy.com/profiles/akarimli17131
+            </a>
+            </div>
+            <br>
+            <div class="profile">
+            <img src="./imgs/photo_2024-11-26_23-40-24.jpg">
+            <h3>Elgun Atayev</h3>
+            <a href="https://www.codecademy.com/profiles/eatayev20561" target="_blank">
+                https://www.codecademy.com/profiles/eatayev20561
+            </a>
+            </div>
+            <br>
+            <div class="profile">
+            <img src="./imgs/Altay.JPG">
+            <h3>Altay Ibrahimli</h3>
+            <a href="https://www.codecademy.com/profiles/myadventuresincoding1" target="_blank">
+                https://www.codecademy.com/profiles/myadventuresincoding1
+            </a>
+            </div>
+            <br>
+            <div class="profile">
+            <img src="./imgs/Farid.png">
+            <h3>Farid Gasimov</h3>
+            <a href="https://www.codecademy.com/profiles/FaridGasimov" target="_blank">
+                https://www.codecademy.com/profiles/FaridGasimov
+            </a>
+            </div>
+        </div>                        
+    </main>
+    
+    <div class="footer">
+        <!-- Logo -->
+        <img src="./media/ada_logo_white.png" alt="University Logo" class="university-logo">
+        <!-- Footer Text -->
+        <p>&copy; 2024 Phoenix Team Website. Proudly affiliated with Ada University</p>
+    </div>
+    <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+
+  </body>
+</html> 
